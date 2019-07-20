@@ -1,0 +1,76 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Login as a authenticated user",
+        "description": "",
+        "id": "login-feature-4;login-as-a-authenticated-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21757903576,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is  on homepage",
+            "match": {
+              "location": "test.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5584085215,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user navigates to Login Page",
+            "match": {
+              "location": "test.user_navigates_to_Login_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4964736275,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters username and Password",
+            "match": {
+              "location": "test.user_enters_username_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4971477610,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "success message is displayed",
+            "match": {
+              "location": "test.success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature 4",
+    "description": "Verify if user is able to Login in to the site",
+    "id": "login-feature-4",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sahajahan/eclipse-workspace/Cucumber_Selenium/src/test/java/features/test4.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@tag"
+      }
+    ]
+  }
+]
