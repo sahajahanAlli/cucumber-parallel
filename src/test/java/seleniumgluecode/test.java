@@ -42,5 +42,13 @@ public class test {
     	String actual = driver.findElement(By.cssSelector(".info-account")).getText();
         Assert.assertEquals(exp_message, actual);
         driver.quit();  
-    }      
+    }
+
+    @Then("^Error message is displayed as (.*)$")
+    public void error_message_is_displayed(String exp_message) throws Throwable {
+
+        String actual = driver.findElement(By.xpath("/html/body/div/div[2]/div/div[3]/div/div[1]/ol/li")).getText();
+        Assert.assertEquals(exp_message, actual);
+        driver.quit();
+    }
 }
